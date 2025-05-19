@@ -22,7 +22,7 @@ jobs:
       run: |
         docker login -u $DOCKER_USER -p $DOCKER_PASS
     - name: Build the Docker image
-      run: docker build randomquotes --file pokenea/dockerfile --tag santiagord2004/pokenea:latest
+      run: docker build pokenea --file pokenea/dockerfile --tag santiagord2004/pokenea:latest
       
     - name: Docker Push
       run: docker push santiagord2004/pokenea
