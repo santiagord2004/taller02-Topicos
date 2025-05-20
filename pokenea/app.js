@@ -2,10 +2,16 @@
 const express = require('express');
 const app = express();
 const pokeneaRoutes = require('./routes/pokeneaRoutes');
+const path = require('path'); 
+
 
 const PORT = process.env.PORT || 3000;
 
+app.set('view engine', 'ejs'); 
+app.set('views', path.join(__dirname, './views')); 
+
 app.use('/pokeneas', pokeneaRoutes); 
+
 
 // Not found Routes(404)
 app.use((req, res, next) => {

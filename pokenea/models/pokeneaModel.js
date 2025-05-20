@@ -19,50 +19,50 @@ const pokeneas = [
     },
     {
       id: 2,
-      nombre: "Pokenea Cafetero",
+      nombre: "Bulbaliendra",
       altura: 0.8,
       habilidad: "Cosechar",
-      imagen: "url_de_s3/cafetero.jpg",
+      imagen: "https://pokenea-sr.s3.us-east-1.amazonaws.com/elvisbulbasur.png",
       fraseFilosofica: "El grano de café es pequeño, pero su sabor es inmenso."
     },
     {
       id: 3,
-      nombre: "Pokenea Arriero",
+      nombre: "El Arriero",
       altura: 1.0,
       habilidad: "Cargar",
-      imagen: "url_de_s3/arriero.jpg",
+      imagen: "https://pokenea-sr.s3.us-east-1.amazonaws.com/Arriero.jpg",
       fraseFilosofica: "El camino es largo, pero la compañía lo hace corto."
     },
     {
       id: 4,
-      nombre: "Pokenea Paisa",
+      nombre: "Bayronmander",
       altura: 1.2,
       habilidad: "Comerciar",
-      imagen: "url_de_s3/paisa.jpg",
+      imagen: "https://pokenea-sr.s3.us-east-1.amazonaws.com/Bayronmander.png",
       fraseFilosofica: "El que no arriesga, no gana."
     },
     {
       id: 5,
-      nombre: "Pokenea Silletero",
+      nombre: "Fuecoco Zapata",
       altura: 1.5,
       habilidad: "Florecer",
-      imagen: "url_de_s3/silletero.jpg",
+      imagen: "https://pokenea-sr.s3.us-east-1.amazonaws.com/fuecoco+zapata.jpg",
       fraseFilosofica: "La belleza está en todas partes, solo hay que saberla ver."
     },
     {
       id: 6,
-      nombre: "Pokenea Minero",
+      nombre: "Brayan Squirtle",
       altura: 0.9,
       habilidad: "Extraer",
-      imagen: "url_de_s3/minero.jpg",
+      imagen: "https://pokenea-sr.s3.us-east-1.amazonaws.com/Brayan+Squirtle.png",
       fraseFilosofica: "El tesoro más grande está en el interior."
     },
     {
       id: 7,
-      nombre: "Pokenea Ciclista",
+      nombre: "Pikanea",
       altura: 0.6,
       habilidad: "Pedalear",
-      imagen: "url_de_s3/ciclista.jpg",
+      imagen: "https://pokenea-sr.s3.us-east-1.amazonaws.com/Pikanea.jpg",
       fraseFilosofica: "El camino es la meta."
     }
   ];

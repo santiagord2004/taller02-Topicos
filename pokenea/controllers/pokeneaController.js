@@ -34,15 +34,16 @@ function getPokeneaImageAndPhrase(req, res) {
   try {
     const pokenea = pokeneaModel.getRandomPokenea();
     const containerId = os.hostname();
-    const response = {
+    const data = { 
+      nombre: pokenea.nombre,
       imagen: pokenea.imagen,
       fraseFilosofica: pokenea.fraseFilosofica,
       containerId: containerId
     };
-    res.json(response);
+    res.render('show', data); 
   } catch (error) {
     console.error("Error in getPokeneaImageAndPhrase:", error);
-    res.status(500).json({ error: "Internal Server Error" });
+    res.status(500).send("Internal Server Error"); 
   }
 }
 
