@@ -11,10 +11,10 @@
 const pokeneas = [
     {
       id: 1,
-      nombre: "Pokenea Andino",
+      nombre: "El zarco",
       altura: 0.5,
       habilidad: "Trepar",
-      imagen: "url_de_s3/andino.jpg",
+      imagen: "https://pokenea-sr.s3.us-east-1.amazonaws.com/el_zarco.jpg",
       fraseFilosofica: "La montaña más alta comienza con un pequeño paso."
     },
     {
